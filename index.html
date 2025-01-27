@@ -21,7 +21,7 @@
       font-style: normal;
     }
 
-    .poppins-regular {
+    .poppins {
       font-family: "Poppins", serif;
       font-weight: 400;
       font-style: normal;
@@ -38,8 +38,9 @@
         extend: {
           colors: {
             'primaryclr': '#707070',
-            'titleclr': '#707070',
+            'titleclr': '#414040',
             'btnclr': '#B68C5A',
+            'borderclr': '#E7E7E7',
           }
         }
       }
@@ -48,7 +49,7 @@
 
 </head>
 
-<body class="poppins-regular">
+<body class="poppins">
 
   <!-- Header Section -->
   <header class="container mx-auto">
@@ -103,7 +104,7 @@
           some form,
           by injected humour.</p>
 
-        <form class="flex gap-6 justify-center">
+        <form class="flex gap-6 ">
           <input type="text" class="w-[500px] h-16 rounded-lg pl-5" placeholder="Search your services">
           <input type="button" class="bg-btnclr text-white text-[20px] font-semibold rounded-lg px-[39px] py-[17px]"
             value="Search">
@@ -112,9 +113,105 @@
       </div>
     </div>
 
-
-
   </header>
+
+  <main class="container mx-auto">
+
+    <!-- Practice Area -->
+    <section class="mt-[120px] mb-80">
+      <h2 class="text-[40px] font-extrabold text-titleclr text-center">The Legal Practice Area</h2>
+      <p class="primaryclr text-center">There are many variations of passages of Lorem Ipsum available, but the majority
+        have<br>
+        suffered alteration in
+        some form,
+        by injected humour.</p>
+
+      <!-- Cards -->
+      <div class="mt-16 w-[1170px] mx-auto grid grid-cols-3">
+
+        <!-- Card 1 -->
+        <div class=" pt-[56px] pb-[70px] px-[72px] flex flex-col items-center border-b border-r">
+          <div><img src="images/business.png"></div>
+          <h3 class="text-[32px] font-extrabold eb-garamond-font mt-6">Business Law</h3>
+          <p class="text-center text-primaryclr mt-6 mb-8">There are many variations of passages of Lorem Ipsum
+            available, but the
+            majority have
+            suffered alteration
+            in some form,
+            by injected humour.</p>
+          <div><a href="#"><img src="images/Frame.png" alt=""></a></div>
+        </div>
+
+        <!-- Card 2 -->
+        <div
+          class=" pt-[56px] pb-[70px] px-[72px] flex flex-col items-center border-b border-r bg-gradient-to-b from-[#F3F3F3] to-[rgba(243, 243, 243, 0)] from-[#F3F3F3]">
+          <div><img src="images/criminal.png"></div>
+          <h3 class="text-[32px] font-extrabold eb-garamond-font mt-6">Criminal Law</h3>
+          <p class="text-center text-primaryclr mt-6 mb-8">There are many variations of passages of Lorem Ipsum
+            available, but the
+            majority have
+            suffered alteration
+            in some form,
+            by injected humour.</p>
+          <div><a href="#"><img src="images/Frame.png" alt=""></a></div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class=" pt-[56px] pb-[70px] px-[72px] flex flex-col items-center border-b">
+          <div><img src="images/child.png"></div>
+          <h3 class="text-[32px] font-extrabold eb-garamond-font mt-6">Child Support</h3>
+          <p class="text-center text-primaryclr mt-6 mb-8">There are many variations of passages of Lorem Ipsum
+            available, but the
+            majority have
+            suffered alteration
+            in some form,
+            by injected humour.</p>
+          <div><a href="#"><img src="images/Frame.png" alt=""></a></div>
+        </div>
+
+        <!-- Cards 4 -->
+        <div class=" pt-[56px] pb-[70px] px-[72px] flex flex-col items-center border-r">
+          <div><img src="images/education.png"></div>
+          <h3 class="text-[32px] font-extrabold eb-garamond-font mt-6">Education Law</h3>
+          <p class="text-center text-primaryclr mt-6 mb-8">There are many variations of passages of Lorem Ipsum
+            available, but the
+            majority have
+            suffered alteration
+            in some form,
+            by injected humour.</p>
+          <div><a href="#"><img src="images/Frame.png" alt=""></a></div>
+        </div>
+
+        <!-- Cards 5 -->
+        <div class=" pt-[56px] pb-[70px] px-[72px] flex flex-col items-center border-r">
+          <div><img src="images/divorce.png"></div>
+          <h3 class="text-[32px] font-extrabold eb-garamond-font mt-6">Divorce Law</h3>
+          <p class="text-center text-primaryclr mt-6 mb-8">There are many variations of passages of Lorem Ipsum
+            available, but the
+            majority have
+            suffered alteration
+            in some form,
+            by injected humour.</p>
+          <div><a href="#"><img src="images/Frame.png" alt=""></a></div>
+        </div>
+
+        <!-- Cards 5 -->
+        <div class=" pt-[56px] pb-[70px] px-[72px] flex flex-col items-center">
+          <div><img src="images/tax.png"></div>
+          <h3 class="text-[32px] font-extrabold eb-garamond-font mt-6">Tax Law</h3>
+          <p class="text-center text-primaryclr mt-6 mb-8">There are many variations of passages of Lorem Ipsum
+            available, but the
+            majority have
+            suffered alteration
+            in some form,
+            by injected humour.</p>
+          <div><a href="#"><img src="images/Frame.png" alt=""></a></div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
 
 </body>
 
